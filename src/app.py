@@ -8,7 +8,7 @@ import io
 # Initialize the Inference Client
 client = InferenceClient(
     provider="hf-inference",
-    api_key="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",  # Replace with your actual API key
+    api_key="***",  # Replace with your actual API key
 )
 
 def process_ticket(text, image=None):
